@@ -32,3 +32,15 @@ function addStuff(){
     
 }
 
+function onLoad(){
+    var btn = document.querySelector('#btn');
+    btn.addEventListener('click', function(e){
+        e.target.style.background = 'blue';
+      })
+}
+
+function alertFunction(){
+    alert("Hello World");
+}
+
+
